@@ -15,7 +15,8 @@
 8、另提供三个block：advertLoadedSuccess（加载成功）、advertLoadedFailure（加载失败）、clickAdvertSuccess（点击广告）
 
 三、代码演示
-    self.advert = [[XPAdvert alloc] initWithView:self.view frame:CGRectMake(0, 0, self.view.frame.size.width, 49) advertType:BannerAdvertType platformType:BaiDupPlatformType superVC:self];
+   
+   self.advert = [[XPAdvert alloc] initWithView:self.view frame:CGRectMake(0, 0, self.view.frame.size.width, 49) advertType:BannerAdvertType platformType:BaiDupPlatformType superVC:self];
     self.advert.clickAdvertSuccess = ^() {
         NSLog(@"点击了广告");
     };
