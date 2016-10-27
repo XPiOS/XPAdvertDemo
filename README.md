@@ -31,16 +31,16 @@
    self.advert = [[XPAdvert alloc] initWithView:self.view frame:CGRectMake(0, 0, self.view.frame.size.width, 49)      
    advertType:BannerAdvertType platformType:BaiDupPlatformType superVC:self];
    
-   self.advert.clickAdvertSuccess = ^() {
+    self.advert.advertLoadedFailure = ^() {
+        NSLog(@"获取广告失败");
+    };
+    
+    self.advert.clickAdvertSuccess = ^() {
         NSLog(@"点击了广告");
     };
    
    self.advert.advertLoadedSuccess = ^() {
         NSLog(@"获取广告成功");
-    };
-    
-    self.advert.advertLoadedFailure = ^() {
-        NSLog(@"获取广告失败");
     };
     
     [self.advert loadAdvert];
