@@ -28,7 +28,8 @@
 
 三、代码演示
    
-   self.advert = [[XPAdvert alloc] initWithView:self.view frame:CGRectMake(0, 0, self.view.frame.size.width, 49) advertType:BannerAdvertType platformType:BaiDupPlatformType superVC:self];
+   self.advert = [[XPAdvert alloc] initWithView:self.view frame:CGRectMake(0, 0, self.view.frame.size.width, 49)      
+   advertType:BannerAdvertType platformType:BaiDupPlatformType superVC:self];
    
    self.advert.clickAdvertSuccess = ^() {
         NSLog(@"点击了广告");
