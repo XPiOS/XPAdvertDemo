@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7727C9761DC04F600042817C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727C9751DC04F600042817C /* main.m */; };
+		7727C9791DC04F600042817C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727C9781DC04F600042817C /* AppDelegate.m */; };
+		7727C97F1DC04F600042817C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7727C97D1DC04F600042817C /* Main.storyboard */; };
+		7727C9821DC04F600042817C /* XPAdvertDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7727C9801DC04F600042817C /* XPAdvertDemo.xcdatamodeld */; };
+		7727C9841DC04F610042817C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7727C9831DC04F610042817C /* Assets.xcassets */; };
+		7727C9871DC04F610042817C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7727C9851DC04F610042817C /* LaunchScreen.storyboard */; };
+		7727C9EC1DC054270042817C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7727C9D81DC052F80042817C /* libc++.tbd */; };
+		7727C9ED1DC054490042817C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7727C9D61DC052E70042817C /* CoreMotion.framework */; };
+		7727C9EE1DC054520042817C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7727C9D41DC052E00042817C /* MessageUI.framework */; };
+		7727C9F21DC054F70042817C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7727C9CA1DC052B00042817C /* libz.tbd */; };
+		7727CA451DC087AD0042817C /* BaiDuInsertPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727CA1D1DC087AD0042817C /* BaiDuInsertPage.m */; };
+		7727CA461DC087AD0042817C /* BaiDuMobAdBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727CA1F1DC087AD0042817C /* BaiDuMobAdBanner.m */; };
+		7727CA471DC087AD0042817C /* BaiDuSplash.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727CA211DC087AD0042817C /* BaiDuSplash.m */; };
+		7727CA481DC087AD0042817C /* GDTAdBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727CA231DC087AD0042817C /* GDTAdBanner.m */; };
+		7727CA491DC087AD0042817C /* GDTBookType.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727CA251DC087AD0042817C /* GDTBookType.m */; };
+		7727CA4A1DC087AD0042817C /* GDTInsertPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727CA271DC087AD0042817C /* GDTInsertPage.m */; };
+		7727CA4B1DC087AD0042817C /* GDTSplash.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727CA291DC087AD0042817C /* GDTSplash.m */; };
+		7727CA4C1DC087AD0042817C /* MVBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727CA2B1DC087AD0042817C /* MVBanner.m */; };
+		7727CA4D1DC087AD0042817C /* MVInsertPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727CA2D1DC087AD0042817C /* MVInsertPage.m */; };
+		7727CA4E1DC087AD0042817C /* BaiduMobAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7727CA301DC087AD0042817C /* BaiduMobAdSDK.framework */; };
+		7727CA4F1DC087AD0042817C /* libGDTMobSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7727CA371DC087AD0042817C /* libGDTMobSDK.a */; };
+		7727CA501DC087AD0042817C /* libMVADSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7727CA391DC087AD0042817C /* libMVADSDK.a */; };
+		7727CA511DC087AD0042817C /* XPAdverBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727CA411DC087AD0042817C /* XPAdverBase.m */; };
+		7727CA521DC087AD0042817C /* XPAdvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727CA431DC087AD0042817C /* XPAdvert.m */; };
+		7727CA561DC089230042817C /* GDT开屏.png in Resources */ = {isa = PBXBuildFile; fileRef = 7727CA531DC089230042817C /* GDT开屏.png */; };
+		7727CA571DC089230042817C /* GDT开屏@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7727CA541DC089230042817C /* GDT开屏@2x.png */; };
+		7727CA581DC089230042817C /* GDT开屏@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7727CA551DC089230042817C /* GDT开屏@3x.png */; };
+		7727CA5F1DC090AB0042817C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727CA5E1DC090AB0042817C /* RootViewController.m */; };
+		7727CA621DC0A6050042817C /* XPDemoVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727CA611DC0A6050042817C /* XPDemoVC1.m */; };
+		7727CA651DC0A6430042817C /* XPDemoBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727CA641DC0A6430042817C /* XPDemoBaseVC.m */; };
+		7727CA681DC0A8C20042817C /* XPDemoVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727CA671DC0A8C20042817C /* XPDemoVC2.m */; };
+		7727CA6B1DC0A8D00042817C /* XPDemoVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727CA6A1DC0A8D00042817C /* XPDemoVC3.m */; };
+		7727CA6E1DC0A8DD0042817C /* XPDemoVC4.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727CA6D1DC0A8DD0042817C /* XPDemoVC4.m */; };
+		7727CA711DC0A8EB0042817C /* XPDemoVC5.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727CA701DC0A8EB0042817C /* XPDemoVC5.m */; };
+		7727CA741DC0A8F60042817C /* XPDemoVC6.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727CA731DC0A8F60042817C /* XPDemoVC6.m */; };
+		7727CA771DC0A8FF0042817C /* XPDemoVC7.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727CA761DC0A8FF0042817C /* XPDemoVC7.m */; };
+		7727CA7A1DC0A9120042817C /* XPDemoVC8.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727CA791DC0A9120042817C /* XPDemoVC8.m */; };
+		7727CA7D1DC0A91D0042817C /* XPDemoVC9.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727CA7C1DC0A91D0042817C /* XPDemoVC9.m */; };
+		773D827C1DC0CC74004988FB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7727C9C61DC051450042817C /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7727C9711DC04F600042817C /* XPAdvertDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPAdvertDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7727C9751DC04F600042817C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7727C9771DC04F600042817C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7727C9781DC04F600042817C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7727C97E1DC04F600042817C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7727C9811DC04F600042817C /* XPAdvertDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XPAdvertDemo.xcdatamodel; sourceTree = "<group>"; };
+		7727C9831DC04F610042817C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7727C9861DC04F610042817C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7727C9881DC04F610042817C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7727C9C61DC051450042817C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7727C9CA1DC052B00042817C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		7727C9D41DC052E00042817C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7727C9D61DC052E70042817C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		7727C9D81DC052F80042817C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		7727CA1C1DC087AD0042817C /* BaiDuInsertPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiDuInsertPage.h; sourceTree = "<group>"; };
+		7727CA1D1DC087AD0042817C /* BaiDuInsertPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiDuInsertPage.m; sourceTree = "<group>"; };
+		7727CA1E1DC087AD0042817C /* BaiDuMobAdBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiDuMobAdBanner.h; sourceTree = "<group>"; };
+		7727CA1F1DC087AD0042817C /* BaiDuMobAdBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiDuMobAdBanner.m; sourceTree = "<group>"; };
+		7727CA201DC087AD0042817C /* BaiDuSplash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiDuSplash.h; sourceTree = "<group>"; };
+		7727CA211DC087AD0042817C /* BaiDuSplash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiDuSplash.m; sourceTree = "<group>"; };
+		7727CA221DC087AD0042817C /* GDTAdBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTAdBanner.h; sourceTree = "<group>"; };
+		7727CA231DC087AD0042817C /* GDTAdBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTAdBanner.m; sourceTree = "<group>"; };
+		7727CA241DC087AD0042817C /* GDTBookType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTBookType.h; sourceTree = "<group>"; };
+		7727CA251DC087AD0042817C /* GDTBookType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTBookType.m; sourceTree = "<group>"; };
+		7727CA261DC087AD0042817C /* GDTInsertPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTInsertPage.h; sourceTree = "<group>"; };
+		7727CA271DC087AD0042817C /* GDTInsertPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTInsertPage.m; sourceTree = "<group>"; };
+		7727CA281DC087AD0042817C /* GDTSplash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSplash.h; sourceTree = "<group>"; };
+		7727CA291DC087AD0042817C /* GDTSplash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTSplash.m; sourceTree = "<group>"; };
+		7727CA2A1DC087AD0042817C /* MVBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVBanner.h; sourceTree = "<group>"; };
+		7727CA2B1DC087AD0042817C /* MVBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVBanner.m; sourceTree = "<group>"; };
+		7727CA2C1DC087AD0042817C /* MVInsertPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVInsertPage.h; sourceTree = "<group>"; };
+		7727CA2D1DC087AD0042817C /* MVInsertPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVInsertPage.m; sourceTree = "<group>"; };
+		7727CA301DC087AD0042817C /* BaiduMobAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMobAdSDK.framework; sourceTree = "<group>"; };
+		7727CA321DC087AD0042817C /* GDTMobBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTMobBannerView.h; sourceTree = "<group>"; };
+		7727CA331DC087AD0042817C /* GDTMobInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTMobInterstitial.h; sourceTree = "<group>"; };
+		7727CA341DC087AD0042817C /* GDTNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeAd.h; sourceTree = "<group>"; };
+		7727CA351DC087AD0042817C /* GDTSplashAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSplashAd.h; sourceTree = "<group>"; };
+		7727CA361DC087AD0042817C /* GDTTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTTrack.h; sourceTree = "<group>"; };
+		7727CA371DC087AD0042817C /* libGDTMobSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGDTMobSDK.a; sourceTree = "<group>"; };
+		7727CA391DC087AD0042817C /* libMVADSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMVADSDK.a; sourceTree = "<group>"; };
+		7727CA3A1DC087AD0042817C /* MVADBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVADBanner.h; sourceTree = "<group>"; };
+		7727CA3B1DC087AD0042817C /* MVADConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVADConfigManager.h; sourceTree = "<group>"; };
+		7727CA3C1DC087AD0042817C /* MVADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVADInterstitial.h; sourceTree = "<group>"; };
+		7727CA3D1DC087AD0042817C /* MVADNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVADNative.h; sourceTree = "<group>"; };
+		7727CA3E1DC087AD0042817C /* MVADNativeBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVADNativeBanner.h; sourceTree = "<group>"; };
+		7727CA3F1DC087AD0042817C /* MVADNativeLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVADNativeLoader.h; sourceTree = "<group>"; };
+		7727CA401DC087AD0042817C /* XPAdverBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPAdverBase.h; sourceTree = "<group>"; };
+		7727CA411DC087AD0042817C /* XPAdverBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPAdverBase.m; sourceTree = "<group>"; };
+		7727CA421DC087AD0042817C /* XPAdvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPAdvert.h; sourceTree = "<group>"; };
+		7727CA431DC087AD0042817C /* XPAdvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPAdvert.m; sourceTree = "<group>"; };
+		7727CA441DC087AD0042817C /* XPAdvertConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPAdvertConfig.h; sourceTree = "<group>"; };
+		7727CA531DC089230042817C /* GDT开屏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GDT开屏.png"; sourceTree = "<group>"; };
+		7727CA541DC089230042817C /* GDT开屏@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GDT开屏@2x.png"; sourceTree = "<group>"; };
+		7727CA551DC089230042817C /* GDT开屏@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GDT开屏@3x.png"; sourceTree = "<group>"; };
+		7727CA5D1DC090AB0042817C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		7727CA5E1DC090AB0042817C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		7727CA601DC0A6050042817C /* XPDemoVC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPDemoVC1.h; sourceTree = "<group>"; };
+		7727CA611DC0A6050042817C /* XPDemoVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPDemoVC1.m; sourceTree = "<group>"; };
+		7727CA631DC0A6430042817C /* XPDemoBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPDemoBaseVC.h; sourceTree = "<group>"; };
+		7727CA641DC0A6430042817C /* XPDemoBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPDemoBaseVC.m; sourceTree = "<group>"; };
+		7727CA661DC0A8C20042817C /* XPDemoVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPDemoVC2.h; sourceTree = "<group>"; };
+		7727CA671DC0A8C20042817C /* XPDemoVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPDemoVC2.m; sourceTree = "<group>"; };
+		7727CA691DC0A8D00042817C /* XPDemoVC3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPDemoVC3.h; sourceTree = "<group>"; };
+		7727CA6A1DC0A8D00042817C /* XPDemoVC3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPDemoVC3.m; sourceTree = "<group>"; };
+		7727CA6C1DC0A8DD0042817C /* XPDemoVC4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPDemoVC4.h; sourceTree = "<group>"; };
+		7727CA6D1DC0A8DD0042817C /* XPDemoVC4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPDemoVC4.m; sourceTree = "<group>"; };
+		7727CA6F1DC0A8EB0042817C /* XPDemoVC5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPDemoVC5.h; sourceTree = "<group>"; };
+		7727CA701DC0A8EB0042817C /* XPDemoVC5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPDemoVC5.m; sourceTree = "<group>"; };
+		7727CA721DC0A8F60042817C /* XPDemoVC6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPDemoVC6.h; sourceTree = "<group>"; };
+		7727CA731DC0A8F60042817C /* XPDemoVC6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPDemoVC6.m; sourceTree = "<group>"; };
+		7727CA751DC0A8FF0042817C /* XPDemoVC7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPDemoVC7.h; sourceTree = "<group>"; };
+		7727CA761DC0A8FF0042817C /* XPDemoVC7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPDemoVC7.m; sourceTree = "<group>"; };
+		7727CA781DC0A9120042817C /* XPDemoVC8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPDemoVC8.h; sourceTree = "<group>"; };
+		7727CA791DC0A9120042817C /* XPDemoVC8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPDemoVC8.m; sourceTree = "<group>"; };
+		7727CA7B1DC0A91D0042817C /* XPDemoVC9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPDemoVC9.h; sourceTree = "<group>"; };
+		7727CA7C1DC0A91D0042817C /* XPDemoVC9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPDemoVC9.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7727C96E1DC04F600042817C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7727C9EE1DC054520042817C /* MessageUI.framework in Frameworks */,
+				7727C9ED1DC054490042817C /* CoreMotion.framework in Frameworks */,
+				7727C9EC1DC054270042817C /* libc++.tbd in Frameworks */,
+				773D827C1DC0CC74004988FB /* StoreKit.framework in Frameworks */,
+				7727C9F21DC054F70042817C /* libz.tbd in Frameworks */,
+				7727CA4E1DC087AD0042817C /* BaiduMobAdSDK.framework in Frameworks */,
+				7727CA4F1DC087AD0042817C /* libGDTMobSDK.a in Frameworks */,
+				7727CA501DC087AD0042817C /* libMVADSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7727C9681DC04F600042817C = {
+			isa = PBXGroup;
+			children = (
+				7727C9D81DC052F80042817C /* libc++.tbd */,
+				7727C9D61DC052E70042817C /* CoreMotion.framework */,
+				7727C9D41DC052E00042817C /* MessageUI.framework */,
+				7727C9CA1DC052B00042817C /* libz.tbd */,
+				7727C9C61DC051450042817C /* StoreKit.framework */,
+				7727C9731DC04F600042817C /* XPAdvertDemo */,
+				7727C9721DC04F600042817C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7727C9721DC04F600042817C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7727C9711DC04F600042817C /* XPAdvertDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7727C9731DC04F600042817C /* XPAdvertDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7727CA591DC08EA80042817C /* class */,
+				7727CA1B1DC087AD0042817C /* XPAdvert */,
+				7727C9771DC04F600042817C /* AppDelegate.h */,
+				7727C9781DC04F600042817C /* AppDelegate.m */,
+				7727CA5D1DC090AB0042817C /* RootViewController.h */,
+				7727CA5E1DC090AB0042817C /* RootViewController.m */,
+				7727CA631DC0A6430042817C /* XPDemoBaseVC.h */,
+				7727CA641DC0A6430042817C /* XPDemoBaseVC.m */,
+				7727C97D1DC04F600042817C /* Main.storyboard */,
+				7727C9831DC04F610042817C /* Assets.xcassets */,
+				7727C9851DC04F610042817C /* LaunchScreen.storyboard */,
+				7727C9881DC04F610042817C /* Info.plist */,
+				7727C9801DC04F600042817C /* XPAdvertDemo.xcdatamodeld */,
+				7727C9741DC04F600042817C /* Supporting Files */,
+			);
+			path = XPAdvertDemo;
+			sourceTree = "<group>";
+		};
+		7727C9741DC04F600042817C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7727C9751DC04F600042817C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7727CA1B1DC087AD0042817C /* XPAdvert */ = {
+			isa = PBXGroup;
+			children = (
+				7727CA531DC089230042817C /* GDT开屏.png */,
+				7727CA541DC089230042817C /* GDT开屏@2x.png */,
+				7727CA551DC089230042817C /* GDT开屏@3x.png */,
+				7727CA1C1DC087AD0042817C /* BaiDuInsertPage.h */,
+				7727CA1D1DC087AD0042817C /* BaiDuInsertPage.m */,
+				7727CA1E1DC087AD0042817C /* BaiDuMobAdBanner.h */,
+				7727CA1F1DC087AD0042817C /* BaiDuMobAdBanner.m */,
+				7727CA201DC087AD0042817C /* BaiDuSplash.h */,
+				7727CA211DC087AD0042817C /* BaiDuSplash.m */,
+				7727CA221DC087AD0042817C /* GDTAdBanner.h */,
+				7727CA231DC087AD0042817C /* GDTAdBanner.m */,
+				7727CA241DC087AD0042817C /* GDTBookType.h */,
+				7727CA251DC087AD0042817C /* GDTBookType.m */,
+				7727CA261DC087AD0042817C /* GDTInsertPage.h */,
+				7727CA271DC087AD0042817C /* GDTInsertPage.m */,
+				7727CA281DC087AD0042817C /* GDTSplash.h */,
+				7727CA291DC087AD0042817C /* GDTSplash.m */,
+				7727CA2A1DC087AD0042817C /* MVBanner.h */,
+				7727CA2B1DC087AD0042817C /* MVBanner.m */,
+				7727CA2C1DC087AD0042817C /* MVInsertPage.h */,
+				7727CA2D1DC087AD0042817C /* MVInsertPage.m */,
+				7727CA2E1DC087AD0042817C /* SDKPackage */,
+				7727CA401DC087AD0042817C /* XPAdverBase.h */,
+				7727CA411DC087AD0042817C /* XPAdverBase.m */,
+				7727CA421DC087AD0042817C /* XPAdvert.h */,
+				7727CA431DC087AD0042817C /* XPAdvert.m */,
+				7727CA441DC087AD0042817C /* XPAdvertConfig.h */,
+			);
+			path = XPAdvert;
+			sourceTree = "<group>";
+		};
+		7727CA2E1DC087AD0042817C /* SDKPackage */ = {
+			isa = PBXGroup;
+			children = (
+				7727CA2F1DC087AD0042817C /* BaiduMobAd */,
+				7727CA311DC087AD0042817C /* GDTAD */,
+				7727CA381DC087AD0042817C /* MVAD */,
+			);
+			path = SDKPackage;
+			sourceTree = "<group>";
+		};
+		7727CA2F1DC087AD0042817C /* BaiduMobAd */ = {
+			isa = PBXGroup;
+			children = (
+				7727CA301DC087AD0042817C /* BaiduMobAdSDK.framework */,
+			);
+			path = BaiduMobAd;
+			sourceTree = "<group>";
+		};
+		7727CA311DC087AD0042817C /* GDTAD */ = {
+			isa = PBXGroup;
+			children = (
+				7727CA321DC087AD0042817C /* GDTMobBannerView.h */,
+				7727CA331DC087AD0042817C /* GDTMobInterstitial.h */,
+				7727CA341DC087AD0042817C /* GDTNativeAd.h */,
+				7727CA351DC087AD0042817C /* GDTSplashAd.h */,
+				7727CA361DC087AD0042817C /* GDTTrack.h */,
+				7727CA371DC087AD0042817C /* libGDTMobSDK.a */,
+			);
+			path = GDTAD;
+			sourceTree = "<group>";
+		};
+		7727CA381DC087AD0042817C /* MVAD */ = {
+			isa = PBXGroup;
+			children = (
+				7727CA391DC087AD0042817C /* libMVADSDK.a */,
+				7727CA3A1DC087AD0042817C /* MVADBanner.h */,
+				7727CA3B1DC087AD0042817C /* MVADConfigManager.h */,
+				7727CA3C1DC087AD0042817C /* MVADInterstitial.h */,
+				7727CA3D1DC087AD0042817C /* MVADNative.h */,
+				7727CA3E1DC087AD0042817C /* MVADNativeBanner.h */,
+				7727CA3F1DC087AD0042817C /* MVADNativeLoader.h */,
+			);
+			path = MVAD;
+			sourceTree = "<group>";
+		};
+		7727CA591DC08EA80042817C /* class */ = {
+			isa = PBXGroup;
+			children = (
+				7727CA601DC0A6050042817C /* XPDemoVC1.h */,
+				7727CA611DC0A6050042817C /* XPDemoVC1.m */,
+				7727CA661DC0A8C20042817C /* XPDemoVC2.h */,
+				7727CA671DC0A8C20042817C /* XPDemoVC2.m */,
+				7727CA691DC0A8D00042817C /* XPDemoVC3.h */,
+				7727CA6A1DC0A8D00042817C /* XPDemoVC3.m */,
+				7727CA6C1DC0A8DD0042817C /* XPDemoVC4.h */,
+				7727CA6D1DC0A8DD0042817C /* XPDemoVC4.m */,
+				7727CA6F1DC0A8EB0042817C /* XPDemoVC5.h */,
+				7727CA701DC0A8EB0042817C /* XPDemoVC5.m */,
+				7727CA721DC0A8F60042817C /* XPDemoVC6.h */,
+				7727CA731DC0A8F60042817C /* XPDemoVC6.m */,
+				7727CA751DC0A8FF0042817C /* XPDemoVC7.h */,
+				7727CA761DC0A8FF0042817C /* XPDemoVC7.m */,
+				7727CA781DC0A9120042817C /* XPDemoVC8.h */,
+				7727CA791DC0A9120042817C /* XPDemoVC8.m */,
+				7727CA7B1DC0A91D0042817C /* XPDemoVC9.h */,
+				7727CA7C1DC0A91D0042817C /* XPDemoVC9.m */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7727C9701DC04F600042817C /* XPAdvertDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7727C98B1DC04F610042817C /* Build configuration list for PBXNativeTarget "XPAdvertDemo" */;
+			buildPhases = (
+				7727C96D1DC04F600042817C /* Sources */,
+				7727C96E1DC04F600042817C /* Frameworks */,
+				7727C96F1DC04F600042817C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XPAdvertDemo;
+			productName = XPAdvertDemo;
+			productReference = 7727C9711DC04F600042817C /* XPAdvertDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7727C9691DC04F600042817C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = XP;
+				TargetAttributes = {
+					7727C9701DC04F600042817C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = UC26VC4VX8;
+					};
+				};
+			};
+			buildConfigurationList = 7727C96C1DC04F600042817C /* Build configuration list for PBXProject "XPAdvertDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7727C9681DC04F600042817C;
+			productRefGroup = 7727C9721DC04F600042817C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7727C9701DC04F600042817C /* XPAdvertDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7727C96F1DC04F600042817C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7727CA581DC089230042817C /* GDT开屏@3x.png in Resources */,
+				7727C9871DC04F610042817C /* LaunchScreen.storyboard in Resources */,
+				7727CA571DC089230042817C /* GDT开屏@2x.png in Resources */,
+				7727C9841DC04F610042817C /* Assets.xcassets in Resources */,
+				7727CA561DC089230042817C /* GDT开屏.png in Resources */,
+				7727C97F1DC04F600042817C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7727C96D1DC04F600042817C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7727CA741DC0A8F60042817C /* XPDemoVC6.m in Sources */,
+				7727CA7D1DC0A91D0042817C /* XPDemoVC9.m in Sources */,
+				7727CA451DC087AD0042817C /* BaiDuInsertPage.m in Sources */,
+				7727CA491DC087AD0042817C /* GDTBookType.m in Sources */,
+				7727CA5F1DC090AB0042817C /* RootViewController.m in Sources */,
+				7727CA7A1DC0A9120042817C /* XPDemoVC8.m in Sources */,
+				7727CA471DC087AD0042817C /* BaiDuSplash.m in Sources */,
+				7727CA481DC087AD0042817C /* GDTAdBanner.m in Sources */,
+				7727CA4D1DC087AD0042817C /* MVInsertPage.m in Sources */,
+				7727CA771DC0A8FF0042817C /* XPDemoVC7.m in Sources */,
+				7727CA6B1DC0A8D00042817C /* XPDemoVC3.m in Sources */,
+				7727C9821DC04F600042817C /* XPAdvertDemo.xcdatamodeld in Sources */,
+				7727CA4A1DC087AD0042817C /* GDTInsertPage.m in Sources */,
+				7727CA4B1DC087AD0042817C /* GDTSplash.m in Sources */,
+				7727CA461DC087AD0042817C /* BaiDuMobAdBanner.m in Sources */,
+				7727CA681DC0A8C20042817C /* XPDemoVC2.m in Sources */,
+				7727CA651DC0A6430042817C /* XPDemoBaseVC.m in Sources */,
+				7727C9791DC04F600042817C /* AppDelegate.m in Sources */,
+				7727CA4C1DC087AD0042817C /* MVBanner.m in Sources */,
+				7727CA521DC087AD0042817C /* XPAdvert.m in Sources */,
+				7727CA711DC0A8EB0042817C /* XPDemoVC5.m in Sources */,
+				7727CA6E1DC0A8DD0042817C /* XPDemoVC4.m in Sources */,
+				7727CA621DC0A6050042817C /* XPDemoVC1.m in Sources */,
+				7727C9761DC04F600042817C /* main.m in Sources */,
+				7727CA511DC087AD0042817C /* XPAdverBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7727C97D1DC04F600042817C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7727C97E1DC04F600042817C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7727C9851DC04F610042817C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7727C9861DC04F610042817C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7727C9891DC04F610042817C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7727C98A1DC04F610042817C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7727C98C1DC04F610042817C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XPAdvertDemo/XPAdvert/SDKPackage/BaiduMobAd",
+				);
+				INFOPLIST_FILE = XPAdvertDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XPAdvertDemo/XPAdvert/SDKPackage/GDTAD",
+					"$(PROJECT_DIR)/XPAdvertDemo/XPAdvert/SDKPackage/MVAD",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mianfeim.book;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7727C98D1DC04F610042817C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XPAdvertDemo/XPAdvert/SDKPackage/BaiduMobAd",
+				);
+				INFOPLIST_FILE = XPAdvertDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XPAdvertDemo/XPAdvert/SDKPackage/GDTAD",
+					"$(PROJECT_DIR)/XPAdvertDemo/XPAdvert/SDKPackage/MVAD",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mianfeim.book;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7727C96C1DC04F600042817C /* Build configuration list for PBXProject "XPAdvertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7727C9891DC04F610042817C /* Debug */,
+				7727C98A1DC04F610042817C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7727C98B1DC04F610042817C /* Build configuration list for PBXNativeTarget "XPAdvertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7727C98C1DC04F610042817C /* Debug */,
+				7727C98D1DC04F610042817C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7727C9801DC04F600042817C /* XPAdvertDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7727C9811DC04F600042817C /* XPAdvertDemo.xcdatamodel */,
+			);
+			currentVersion = 7727C9811DC04F600042817C /* XPAdvertDemo.xcdatamodel */;
+			path = XPAdvertDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7727C9691DC04F600042817C /* Project object */;
+}
