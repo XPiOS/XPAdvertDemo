@@ -1,6 +1,6 @@
 一、功能简介
 
-将百度、广点通、聚效sdk进行封装，实现一行代码调用广告。
+将百度、广点通、聚效sdk进行封装，实现一行代码调用广告。线上项目地址：https://itunes.apple.com/us/app/mian-fei-dian-zi-shu-mian/id1138159077?l=zh&ls=1&mt=8
 
 1、百度：banner广告、插页广告、开屏广告
 
