@@ -18,11 +18,12 @@
 - (void)loadAdvert {
     _splashBackgroundView                 = [[UIView alloc] initWithFrame:self.frame];
     _splashBackgroundView.backgroundColor = [UIColor whiteColor];
-    [self.view addSubview:_splashBackgroundView];
     UIImage *image                        = [UIImage imageNamed:@"GDT开屏"];
     UIImageView *imageView                = [[UIImageView alloc] initWithImage:image];
     imageView.frame                       = CGRectMake(0, self.frame.size.height - image.size.height, image.size.width, image.size.height);
     [_splashBackgroundView addSubview:imageView];
+    [self.view addSubview:_splashBackgroundView];
+    
     _splash                               = [[BaiduMobAdSplash alloc] init];
     _splash.delegate                      = self;
     _splash.AdUnitTag                     = kBaiDuSplashId;

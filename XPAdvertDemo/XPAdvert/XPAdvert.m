@@ -39,6 +39,10 @@
 }
 
 - (void)loadAdvert {
+    if (_advertManager) {
+        [_advertManager loadAdvert];
+        return;
+    }
     switch (_advertType) {
         case BannerAdvertType: {
             _advertManager = [self addBannerAdvert];

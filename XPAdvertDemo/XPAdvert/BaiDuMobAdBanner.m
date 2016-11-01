@@ -11,11 +11,14 @@
 #import "BaiduMobAdSDK/BaiduMobAdSetting.h"
 
 @implementation BaiDuMobAdBanner
-
+- (void)dealloc {
+    [sharedAdView removeFromSuperview];
+    sharedAdView.delegate = nil;
+    sharedAdView          = nil;
+}
 - (void)loadAdvert {
-    if (sharedAdView) {
-        [sharedAdView removeFromSuperview];
-        sharedAdView = nil;
+    if (sharedAdView.superview) {
+        return;
     }
     sharedAdView           = [[BaiduMobAdView alloc] init];
     sharedAdView.AdUnitTag = kBaiDuBannerId;
@@ -34,6 +37,7 @@
     }
 }
 -(void)failedDisplayAd:(BaiduMobFailReason) reason {
+    [sharedAdView removeFromSuperview];
     if (self.advertLoadedFailure) {
         self.advertLoadedFailure();
     }
@@ -43,5 +47,4 @@
         self.clickAdvertSuccess();
     }
 }
-
 @end
